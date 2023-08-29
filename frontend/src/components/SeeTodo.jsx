@@ -6,8 +6,8 @@ const SeeTodo = () => {
 
   const [todos, setTodos] = useState([]); 
 
-  const BaseUrl = "https://myjourns.onrender.com";
-  // const BaseUrl = "http://localhost:3000";
+  // const BaseUrl = "https://myjourns.onrender.com";
+  const BaseUrl = "http://localhost:3000";
 
   const showTodo = async()=>{
     let { data } = await axios.get(`${BaseUrl}/gettodos`);
