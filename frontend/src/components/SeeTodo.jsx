@@ -5,7 +5,6 @@ import uuid from 'react-uuid';
 const SeeTodo = () => {
 
   const [todos, setTodos] = useState([]); 
-
   const BaseUrl = "https://myjourns.onrender.com";
   // const BaseUrl = "http://localhost:3000";
 
